@@ -31,7 +31,7 @@ function outputTemp(tempRow) {
                     if (Math.abs(prevVal) < Math.abs(sortedArray[i])) {
                         if (smallestVal) {
                             if (Math.abs(prevVal) < Math.abs(smallestVal)) {
-                                smallestVal = Math.abs(prevVal);
+                                smallestVal = prevVal;
                             }
                         } else {
                             smallestVal = prevVal;
